@@ -1,0 +1,7 @@
+services:
+  web:
+    image: "nginx"
+    port: 9090
+  db:
+    image: redis
+    port: 3468 
