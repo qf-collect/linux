@@ -1,0 +1,5 @@
+docker run -itd --name=$1 -p $2 $3
+
+$1 = web
+$3 = image name
+$2 = port
